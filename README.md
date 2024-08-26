@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Next.js Routing Concept Project
 
 This project demonstrates various routing concepts in Next.js, showcasing dynamic and nested routing capabilities. It was built using Next.js and developed with the assistance of Cursor AI through effective prompting.
@@ -59,3 +60,7 @@ To learn more about Next.js and its routing capabilities, check out the followin
 ## Acknowledgements
 
 Special thanks to Cursor AI for assisting in the development of this project through intelligent code suggestions and effective prompting.
+=======
+# nextjs-product-review-app
+ This project is a simple product review application built using Next.js. It showcases a routing concept where users can view products and their associated reviews covering the entire routing concepts in nextjs
+>>>>>>> b0f5b78d4543f480904246c3823617fa4c9e047c
