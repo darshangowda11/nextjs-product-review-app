@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Routing Concept Project
 
-## Getting Started
+This project demonstrates various routing concepts in Next.js, showcasing dynamic and nested routing capabilities. It was built using Next.js and developed with the assistance of Cursor AI through effective prompting.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This application is a simple product catalog that demonstrates the following Next.js routing concepts:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Basic static routing
+2. Dynamic routing with `[productId]`
+3. Nested dynamic routing with `[productId]` and `[reviewId]`
+4. Shared layout component
+5. Navigation between pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Home page with a list of products
+- Individual product pages with reviews
+- Nested review pages for each product
+- About and Contact pages
+- Consistent layout across all pages
+
+## Routing Structure
+
+- `/` - Home page (list of products)
+- `/about` - About page
+- `/contact` - Contact page
+- `/products/[productId]` - Individual product page
+- `/products/[productId]/reviews/[reviewId]` - Individual review page
+
+## Development Process
+
+This project was developed using Next.js and built with the assistance of Cursor AI. The development process involved:
+
+1. Defining the routing structure and requirements
+2. Implementing basic pages and components
+3. Adding dynamic routing for products and reviews
+4. Creating a shared layout component
+5. Styling the application for a better user experience
+
+By leveraging effective prompting techniques with Cursor AI, the development process was streamlined, allowing for rapid implementation of Next.js routing concepts.
+
+## Running the Project
+
+To run this project locally:
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Run the development server with `npm run dev`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js and its routing capabilities, check out the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Acknowledgements
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Special thanks to Cursor AI for assisting in the development of this project through intelligent code suggestions and effective prompting.
