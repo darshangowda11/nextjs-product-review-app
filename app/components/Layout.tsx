@@ -16,7 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <main className="flex-grow container mx-auto p-4">
         {children}
       </main>
-      <footer className="bg-gray-200 p-4 text-center">
+      <footer className="text-center">
         <p>&copy; 2024 Product Catalog. All rights reserved.</p>
       </footer>
     </div>
